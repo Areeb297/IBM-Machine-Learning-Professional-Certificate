@@ -1,3 +1,5 @@
+Aim: Supervised learning - Classification problem
+
 Extremely unbalanced dataset obtained from Kaggle - achieved a recall score for the minority class of 99% and macro F1-score of 77%. 
 Recall is the most important in this case, especially for the positive class since avoiding false negatives will ensure patient has been diagnosed as 
 having no stroke and in reality has no stroke! I implemented several different ML models of which Naive Bayes and Stochastic Gradient Descent performed best.
