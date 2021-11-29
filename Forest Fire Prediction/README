@@ -1,0 +1,49 @@
+https://www.kaggle.com/ishandutta/forest-fires-data-set-portugal
+
+
+"ABSTRACT
+
+This is a difficult regression task, where the aim is to predict the burned area of forest fires, in the northeast region of Portugal, by using meteorological and other data (see details at: [Web Link]).
+
+Data Set Information:
+
+Data Set Characteristics: Multivariate
+
+Number of Instances: 517
+
+Area: Physical
+
+Attribute Characteristics: Real
+
+Number of Attributes: 13
+
+Date Donated: 2008-02-29
+
+Associated Tasks: Regression
+
+Missing Values? N/A
+
+Number of Web Hits: 871088
+
+In [Cortez and Morais, 2007], the output 'area' was first transformed with a ln(x+1) function.
+Then, several Data Mining methods were applied. After fitting the models, the outputs were
+post-processed with the inverse of the ln(x+1) transform. Four different input setups were
+used. The experiments were conducted using a 10-fold (cross-validation) x 30 runs. Two
+regression metrics were measured: MAD and RMSE. A Gaussian support vector machine (SVM) fed
+with only 4 direct weather conditions (temp, RH, wind and rain) obtained the best MAD value:
+12.71 +- 0.01 (mean and confidence interval within 95% using a t-student distribution). The
+best RMSE was attained by the naive mean predictor. An analysis to the regression error curve
+(REC) shows that the SVM model predicts more examples within a lower admitted error. In effect,
+the SVM model predicts better small fires, which are the majority.
+
+Source:
+
+Paulo Cortez, pcortez '@' dsi.uminho.pt, Department of Information Systems, University of Minho, Portugal.
+Aníbal Morais, araimorais '@' gmail.com, Department of Information Systems, University of Minho, Portugal.
+
+Relevant Papers:
+
+[Cortez and Morais, 2007] P. Cortez and A. Morais. A Data Mining Approach to Predict Forest Fires using Meteorological Data. In J. Neves, M. F. Santos and J. Machado Eds., New Trends in Artificial Intelligence, 
+Proceedings of the 13th EPIA 2007 - Portuguese Conference on Artificial Intelligence, December, Guimarães, Portugal, pp. 512-523, 2007. APPIA, 
+ISBN-13 978-989-95618-0-9. Available at: [Web Link]
+https://www.kaggle.com/ishandutta/forest-fires-data-set-portugal"
