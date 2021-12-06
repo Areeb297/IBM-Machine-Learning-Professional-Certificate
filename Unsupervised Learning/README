@@ -1,0 +1,2 @@
+This project uses data from Kaggle regarding customer data obtained from a database of a grocery store. The aim is to use unsupervised learning
+(dimensionality reduction and clustering techniques) to identify 3 different types of customer segments to assist the stakholders in targeted marketing
